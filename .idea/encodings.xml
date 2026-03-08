@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/fault_tolerance/service_a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fault_tolerance/simple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_1/jwt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_1/message-queue-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_1/message-queue-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_1/message-queue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_1/message-queue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/bai-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/factory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/factory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/singleton/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_2/singleton/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/composite/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/composite/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/lib_management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/lib_management/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/observer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/observer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/task_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/task_manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/tree_structure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/tree_structure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/web_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_3/web_service/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

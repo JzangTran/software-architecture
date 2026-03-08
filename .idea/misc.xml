@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lab_1/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_1/message-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_1/message-queue-2/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_2/bai-1/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_2/bai-2/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_2/bai-3/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_2/factory/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_2/singleton/pom.xml" />
+        <option value="$PROJECT_DIR$/fault_tolerance/service_a/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/observer/pom.xml" />
+        <option value="$PROJECT_DIR$/composite/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/composite/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/adapter/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/tree_structure/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/task_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/web_service/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_3/lib_management/pom.xml" />
+        <option value="$PROJECT_DIR$/fault_tolerance/simple/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/fault_tolerance/service_a/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

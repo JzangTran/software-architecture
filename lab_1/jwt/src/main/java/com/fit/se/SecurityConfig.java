@@ -7,6 +7,8 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
+import java.util.List;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
@@ -24,7 +26,6 @@ public class SecurityConfig {
         return http.build();
     }
 
-    // 2️⃣ RESOURCE SERVER (JWT REQUIRED)
     @Bean
     SecurityFilterChain apiFilterChain(HttpSecurity http) throws Exception {
 

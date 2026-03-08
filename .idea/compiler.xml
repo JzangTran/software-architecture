@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="singleton" />
+        <module name="factory" />
+        <module name="bai-3" />
+        <module name="adapter" />
+        <module name="message-queue" />
+        <module name="task_manager" />
+        <module name="web_service" />
+        <module name="jwt" />
+        <module name="simple" />
+        <module name="observer" />
+        <module name="tree_structure" />
+        <module name="composite" />
+        <module name="lib_management" />
+        <module name="message-queue-2" />
+        <module name="bai-1" />
+        <module name="bai-2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service_a" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jwt" options="-parameters" />
+      <module name="service_a" options="-parameters" />
+      <module name="simple" options="-parameters" />
+    </option>
+  </component>
+</project>

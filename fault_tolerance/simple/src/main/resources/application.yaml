@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: simple
+  aop:
+    auto: true
+
+logging:
+  level:
+    io.github.resilience4j: DEBUG
+
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      testCircuitBreaker:
+        sliding-window-size: 5
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 10s
+        permitted-number-of-calls-in-half-open-state: 2
+  retry:
+    instances:
+      testRetry:
+        max-attempts: 3
+        wait-duration:
+          seconds: 1
+        retry-exceptions:
+          - java.io.IOException
+          - java.util.concurrent.TimeoutException
+  ratelimiter:
+    instances:
+      testRateLimiter:
+        timeout-duration:
+          seconds: 0
+        limit-refresh-period: 10s
+        limit-for-period: 5
+  bulkhead:
+    instances:
+      testBulkhead:
+        max-concurrent-calls: 2
+        max-wait-duration: 0s
+
+
