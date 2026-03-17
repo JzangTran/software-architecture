@@ -19,7 +19,7 @@ public class TestService {
         int attempt = counter.incrementAndGet();
         System.out.println("Attempt: " + attempt);
 
-        if (attempt < 5) {
+        if (attempt < 2) {
             throw new IOException("Simulated failure");
         }
 

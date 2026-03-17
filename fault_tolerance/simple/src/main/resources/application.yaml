@@ -1,8 +1,8 @@
 spring:
   application:
     name: simple
-  aop:
-    auto: true
+#  aop:
+#    auto: true
 
 logging:
   level:
