@@ -24,6 +24,26 @@
         <module name="bai-1" />
         <module name="bai-2" />
       </profile>
+      <profile name="Annotation profile for login-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="login-service" />
+        <module name="backend" />
+      </profile>
+      <profile name="Annotation profile for register-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
+        </processorPath>
+        <module name="register-service" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service_a" target="21" />
@@ -31,7 +51,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend" options="-parameters" />
       <module name="jwt" options="-parameters" />
+      <module name="login-service" options="-parameters" />
+      <module name="register-service" options="-parameters" />
       <module name="service_a" options="-parameters" />
       <module name="simple" options="-parameters" />
     </option>
