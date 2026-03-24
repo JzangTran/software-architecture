@@ -16,9 +16,22 @@ public class UserService {
             return;
         }
         userRepo.save(User.builder()
+                        .id(request.id())
                         .name(request.name())
                         .email(request.email())
                         .password(request.password())
                         .build());
+    }
+
+    public boolean validateUser(String email, String password) throws Exception {
+        User user = userRepo.findByEmail((email));
+
+        if (user == null) throw new Exception();
+
+        if (!password.equals(user.getPassword())) {
+            throw new Exception();
+        }
+
+        return true;
     }
 }
