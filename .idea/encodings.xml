@@ -35,5 +35,7 @@
     <file url="file://$PROJECT_DIR$/lab_5/backend/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab_5/login-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lab_5/register-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_6/login-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab_6/register-service/src/main/java" charset="UTF-8" />
   </component>
 </project>

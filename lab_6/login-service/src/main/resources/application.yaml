@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: login-service
+  datasource:
+    url: jdbc:postgresql://aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres
+    username: postgres.hquouozssjqaqaxzucfu
+    password: EaytVMZf1YIWBU8g
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  security:
+    oauth2.resourceserver.jwt.public-key-location: classpath:public.pem
+
+  jackson:
+    time-zone: Asia/Ho_Chi_Minh
+
+server:
+  port: 8082

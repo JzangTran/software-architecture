@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: register-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://host.docker.internal:5432/postgres?options=-c%20TimeZone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  jackson:
+    time-zone: Asia/Ho_Chi_Minh
+server:
+  port: 8386

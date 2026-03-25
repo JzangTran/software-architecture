@@ -23,8 +23,8 @@
         <option value="$PROJECT_DIR$/lab_3/lib_management/pom.xml" />
         <option value="$PROJECT_DIR$/fault_tolerance/simple/pom.xml" />
         <option value="$PROJECT_DIR$/lab_5/backend/pom.xml" />
-        <option value="$PROJECT_DIR$/lab_5/login-service/pom.xml" />
-        <option value="$PROJECT_DIR$/lab_5/register-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_6/register-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lab_6/login-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -24,19 +24,21 @@
         <module name="bai-1" />
         <module name="bai-2" />
       </profile>
-      <profile name="Annotation profile for login-service" enabled="true">
+      <profile name="Annotation profile for register-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.42/lombok-1.18.42.jar" />
         </processorPath>
-        <module name="login-service" />
+        <module name="login-service (1)" />
         <module name="backend" />
-        <module name="register-service" />
+        <module name="register-service (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="login-service" target="21" />
+      <module name="register-service" target="21" />
       <module name="service_a" target="21" />
     </bytecodeTargetLevel>
   </component>
@@ -45,7 +47,9 @@
       <module name="backend" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="login-service" options="-parameters" />
+      <module name="login-service (1)" options="-parameters" />
       <module name="register-service" options="-parameters" />
+      <module name="register-service (1)" options="-parameters" />
       <module name="service_a" options="-parameters" />
       <module name="simple" options="-parameters" />
     </option>
